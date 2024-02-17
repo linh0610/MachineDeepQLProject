@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab240a79-b107-4e68-bf35-7feebc0559b7" name="Changes" comment="Implemented the reward system">
+    <list default="true" id="ab240a79-b107-4e68-bf35-7feebc0559b7" name="Changes" comment="new agent class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/Enemy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/JumpyAi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/License.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Idle1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Jump_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Pad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Run_animation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/asteroid1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/bgmusic.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/death_fx.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/jump_fx.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/extramodule.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/score.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +54,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.agent">
+  <component name="RunManager" selected="Python.JumpyAi">
     <configuration name="JumpyAi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JumpyDeepQL" />
       <option name="ENV_FILES" value="" />
@@ -115,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.agent" />
         <item itemvalue="Python.JumpyAi" />
+        <item itemvalue="Python.agent" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708124632170</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new agent class">
+      <option name="closed" value="true" />
+      <created>1708129949036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708129949036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +164,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Copying the game previously" />
     <MESSAGE value="Implemented the reward system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the reward system" />
+    <MESSAGE value="new agent class" />
+    <option name="LAST_COMMIT_MESSAGE" value="new agent class" />
   </component>
 </project>
