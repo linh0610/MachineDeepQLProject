@@ -4,22 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab240a79-b107-4e68-bf35-7feebc0559b7" name="Changes" comment="Copying the game previously">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ab240a79-b107-4e68-bf35-7feebc0559b7" name="Changes" comment="Implemented the reward system">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/JumpyAi.py" beforeDir="false" afterPath="$PROJECT_DIR$/jumpy/Jumpy/JumpyAi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/Enemy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/JumpyAi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Idle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Jump_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/Run_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/asteroid1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/bgmusic.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/death_fx.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/asset/jump_fx.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/extramodule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jumpy/Jumpy/score.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/jumpy/Jumpy/JumpyAi.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.venv/jumpy/Jumpy/agent.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.venv/jumpy/Jumpy/score.txt" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2cSzdOS15tUktdkaK3j1lwgB35S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,10 +56,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.JumpyAi.executor": "Run",
+    "Python.agent.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -43,6 +68,58 @@
     ]
   }
 }]]></component>
+  <component name="RunManager" selected="Python.agent">
+    <configuration name="JumpyAi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JumpyDeepQL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv/jumpy/Jumpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/jumpy/Jumpy/JumpyAi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="agent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JumpyDeepQL" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv/jumpy/Jumpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/jumpy/Jumpy/agent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.agent" />
+        <item itemvalue="Python.JumpyAi" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708120061313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented the reward system">
+      <option name="closed" value="true" />
+      <created>1708124632170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708124632170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Copying the game previously" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copying the game previously" />
+    <MESSAGE value="Implemented the reward system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the reward system" />
   </component>
 </project>
